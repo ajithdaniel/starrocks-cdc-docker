@@ -108,7 +108,7 @@ services:
   # StarRocks Frontend (FE) - Shared-Data Mode
   # ===========================================================================
   starrocks-fe:
-    image: starrocks/fe-ubuntu:3.3.0
+    image: starrocks/fe-ubuntu:latest
     container_name: starrocks-fe
     hostname: starrocks-fe
     restart: unless-stopped
@@ -146,7 +146,7 @@ services:
   # StarRocks Compute Node (CN) - Stateless for Shared-Data Mode
   # ===========================================================================
   starrocks-cn:
-    image: starrocks/cn-ubuntu:3.3.0
+    image: starrocks/cn-ubuntu:latest
     container_name: starrocks-cn
     hostname: starrocks-cn
     restart: unless-stopped

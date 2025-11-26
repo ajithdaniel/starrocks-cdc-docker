@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-20.10%2B-blue.svg)](https://www.docker.com/)
 [![Flink](https://img.shields.io/badge/Flink-1.20-orange.svg)](https://flink.apache.org/)
-[![StarRocks](https://img.shields.io/badge/StarRocks-3.3.0-green.svg)](https://starrocks.io/)
+[![StarRocks](https://img.shields.io/badge/StarRocks-latest-green.svg)](https://starrocks.io/)
 
 Real-time Change Data Capture (CDC) pipeline from MySQL to StarRocks using Flink, running in shared-data mode with MinIO as S3-compatible object storage.
 
